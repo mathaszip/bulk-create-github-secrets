@@ -13,23 +13,11 @@ This tool allows you to bulk create GitHub Actions secrets for both personal and
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/yourusername/create-bulk-github-secrets.git
-cd create-bulk-github-secrets
+git clone https://github.com/mathaszip/bulk-create-github-secrets.git
+cd bulk-create-github-secrets
 ```
 
-2. Create and activate a virtual environment (recommended):
-
-```bash
-# On macOS/Linux
-python3 -m venv venv
-source venv/bin/activate
-
-# On Windows
-python -m venv venv
-.\venv\Scripts\activate
-```
-
-3. Install required packages:
+2. Install required packages:
 
 ```bash
 pip install -r requirements.txt
